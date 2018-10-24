@@ -2,6 +2,7 @@
 ## Addon Template Generator
 
 addon template generator for minecraft bedrock 1.7.x alpha and 1.8.x beta
+
 <https://innova67.github.io/template-generator>
 
 > This generator won't generate a fully ended addon, it will just merge all the folders and files needed to start one.
