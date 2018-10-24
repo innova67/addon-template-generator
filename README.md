@@ -16,18 +16,19 @@ into the website you will find two principal sections to select:
 choose **only behavior** or **only texture** or **addon** and follow these steps:
   
 #### BEHAVIORS.-
-  1. choose the entity (or entities) to modify
-  2. enable _loot_tables_ to add it into the behavior
-  3. aneble _trading_ to add it into the behavior
-    * (it only works with entity villager)
+1. choose the entity (or entities) to modify
+2. enable _loot_tables_ to add it into the behavior
+3. aneble _trading_ to add it into the behavior
+  * (it only works with entity villager)
   
 #### TEXTURES.-
-  4. enable _models_ to modify entity's model
-  5. enable _items_ section if you want to modify item textures
-    * choose wich items do you want to modify
-  6. enable _blocks_ section if you want to modify block textures
-    * choose wich blocks do you want to modify
-  7. enbale _sound_ to modify entity's sound
+4. enable _models_ to modify entity's model
+5. enable _items_ section if you want to modify item textures
+  * choose wich items do you want to modify
+6. enable _blocks_ section if you want to modify block textures
+  * choose wich blocks do you want to modify
+7. enbale _sound_ to modify entity's sound
+
 _to modify texts and translations personally recomend SolveDev's Anylanguajes_ <https://solveddev.github.io/AnyLanguage/>
 
 once all was selected click on **generate and download** to finish
