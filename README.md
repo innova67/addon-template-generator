@@ -1,4 +1,4 @@
-```Markdown
+
 ## Addon Template Generator
 
 addon template generator for minecraft bedrock 1.7.x alpha and 1.8.x beta
@@ -33,4 +33,3 @@ once all was selected click on **generate and download** to finish
 
 ### using customized mobs
 this isn't implemented yet :P
-```
