@@ -4,7 +4,7 @@
 
 addon template generator for minecraft bedrock 1.7.x alpha and 1.8.x beta
 
-<https://innova67.github.io/template-generator>
+<https://innova67.github.io/addon-template-generator>
 
 > **This generator won't generate a fully ended addon, it will just merge all the folders and files needed to start one.**
 
@@ -29,11 +29,12 @@ TEXTURES | BEHAVIORS
 enable `models` to modify entity's model | enable `trading` to modify villager's trading
 enable `items` if you want to modify item textures | enable `loot tables` (and which loot tables)
 enable `blocks` section if you want to modify block textures | choose the `entities` to modify
-enable `sound` to modify entity's sound
+enable `sound` to modify entity's sound|
 
 _to modify texts and translations personally recommend **@SolveDev**'s [Any-languajes](https://solveddev.github.io/AnyLanguage/) generator_
 
-once all was selected click on `generate and download` to finish
+once all was selected, click on `generate and download` to finish.
+
 ---
 ### using customized mobs
 this isn't implemented yet (sorry) :P
