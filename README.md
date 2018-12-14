@@ -1,6 +1,6 @@
 <img align="right" width="150" alt="logo" height="150" src="https://i.imgur.com/pkA03Yx.jpg?1">
 
-## Addon Template Generator
+# Addon Template Generator
 
 addon template generator for minecraft bedrock 1.7.x alpha and 1.8.x beta
 
