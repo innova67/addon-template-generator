@@ -14,10 +14,10 @@ into the website you will find three principal sections to select:
 2. common behaviors
 3. fully customized mob generator (only for 1.8.x beta) **not implemented yet**
 ---
-### using common addon generator
+### USING COMMON ADDON GENERATOR
 choose **behavior** or **texture** and follow these steps:
   
-#### BASIC CONTENT.-
+#### BASIC OPTIONS.-
 1. add your pack's name
 2. choose if you want to just `generate directories` or `generate directories and fill with vanilla files`
 3. select basic files to be added (manifest, pack icon) 
@@ -34,7 +34,7 @@ enable `sound` to modify entity's sound
 _to modify texts and translations personally recommend **@SolveDev**'s [Any-languajes](https://solveddev.github.io/AnyLanguage/) generator_
 
 once all was selected click on `generate and download` to finish
-
+---
 ### using customized mobs
 this isn't implemented yet (sorry) :P
 
