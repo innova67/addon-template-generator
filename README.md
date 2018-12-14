@@ -8,18 +8,18 @@ addon template generator for minecraft bedrock 1.7.x alpha and 1.8.x beta
 > This generator won't generate a fully ended addon, it will just merge all the folders and files needed to start one.
 
 ### How does it works?
-into the website you will find two principal sections to select:
-1. common addons
-2. fully customized mob addons (only for 1.8.x beta)
+into the website you will find three principal sections to select:
+1. common textures
+2. common behaviors
+3. fully customized mob addons (only for 1.8.x beta) **not implemented yet**
 
 ### using a common addons
-choose **only behavior** or **only texture** or **addon** and follow these steps:
+choose **behavior** or **texture** and follow these steps:
   
 #### BEHAVIORS.-
-1. choose the entity (or entities) to modify
-2. enable _loot_tables_ to add it into the behavior
-3. aneble _trading_ to add it into the behavior
-  * (it only works with entity villager)
+1. add your behavior's name
+2. select basic files to be added (manifest, pack icon, trading ...)
+3. choose the entity (or entities) to modify
   
 #### TEXTURES.-
 4. enable _models_ to modify entity's model
@@ -34,4 +34,4 @@ _to modify texts and translations personally recomend SolveDev's Anylanguajes_ <
 once all was selected click on **generate and download** to finish
 
 ### using customized mobs
-this isn't implemented yet :P
+this isn't implemented yet (sorry) :P
