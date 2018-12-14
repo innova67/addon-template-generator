@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+</html>
+
+<head>
+    <!--title-->
+    <title>Add-on Template Generator</title>
+
+    <!--Meta data for search engines-->
+    <meta charset="utf-8">
+    <meta name="author" content="Nova67">
+    <meta name="description" content="This is a reliable and easy to use website which allows
+        content creators to set up a fully customizable add-on template for all supported Minecraft bedrock versions. Developed by Innova67">
+
+    <!--Open Graph Meta Data-->
+    <meta property="og:image" content="https://i.imgur.com/pkA03Yx.jpg?1">
+    <meta property="og:title" content="Minecraft Bedrock Addon Generator">
+    <meta property="og:description" content="This is a reliable and easy to use website which allows
+        content creators to set up a fully customizable add-on template for all supported Minecraft bedrock versions. Developed by Innova67">
+
+    <!--Twitter meta Data-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:creator" content="@innova67" />
+    <meta property="og:url" content="https://innova67.github.io/template-generator/" />
+
+    <!--Favicon-->
+    <link rel="shortcut icon" href="media/iconos/icon-oficial.jpg" type="image/x-icon">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/subStyle.css">
+
+    <!-- Google Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic|Roboto+Condensed:300italic,400italic,700italic,400,300,700'
+        rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet'
+        type='text/css'>
+</head>
+
+
+<body>
+    <!--navigation bar-->
+    <nav class="navigation-header">
+        <table>
+            <tr>
+                <td class="subtitle">
+                    <div class="subtitle">
+                        <h1>Template Generator</h1>
+                    </div>
+                </td>
+                <td>
+                    <ul class="nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a>Generators</a>
+                            <ul>
+                                <li><a href="texture.html">Texture</a></li>
+                                <li><a href="behavior.html">Behavior</a></li>
+                                <li><a href="addon.html">Add-on</a></li>
+                                <li><a href="addonBeta.html">Beta Entity</a></li>
+                        </li>
+                    </ul>
+                    </li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <hr>
+    </nav>
+
+    <!--Behavior Section-->
+    <section class="actions">
+        <div class="entity">
+            <h2>Behavior Section</h2>
+            <p class="note">this section will generate behavior packs only</p>
+        </div>
+        <table class="sub-table">
+            <tr>
+                <td>
+                    <hr class="sub-hr">
+                    <form class="formulario">
+                        <p>
+                            <p>name your behavior:</p>
+                            <input type="text" id="id-name">
+                            <label for="id-name"></label>
+                        </p>
+                        <p>
+                            <select name="Generator">
+                                <option value="directories" selected> generate directories </option>
+                                <option value="filled"> generate directories and fill with vanilla files </option>
+                            </select>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="id-manifest" name="manifest" value="manifest" checked>
+                            <label for="id-manifest"> manifest </label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="id-pack_icon" name="pack_icon" value="pack_icon" checked>
+                            <label for="id-pack_icon"> pack_icon </label>
+                        </p>
+                        <hr class="sub-hr">
+                        <p>
+                            <input type="checkbox" id="id-trading" name="trading" value="trading">
+                            <label for="id-trading"> trading </label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="id-loot_table" name="loot_table" value="loot">
+                            <label for="id-loot_table"> loot tables </label>
+                        </p>
+                        <!--loot tables sub-section-->
+                        <section class="subsection" id="sub-loot">
+                            <p>
+                                <input type="checkbox" id="id-loot-chest" name="lchest" value="loot-chest">
+                                <label for="id-loot-chest"> chest </label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="id-loot-entities" name="lentities" value="loot-entities">
+                                <label for="id-loot-entities"> entities </label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="id-loot-gameplay" name="lgameplay" value="loot-gameplay">
+                                <label for="id-loot-gameplay"> gameplay </label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="id-loot-equipment" name="lequipment" value="loot-equipment">
+                                <label for="id-loot-equipment"> equipment </label>
+                            </p>
+                        </section>
+                        <p>
+                            <input type="checkbox" id="id-entities" name="entities" value="entities">
+                            <label for="id-entities"> entities </label>
+                        </p>
+                    </form>
+                </td>
+                <td class="entities">
+                    <form>
+                        <!--entities sub-section-->
+                        <section class="subsection" id="sub-entities">
+                            <p>
+                                <input type="checkbox" id="id-loot-chest" name="entities" value="loot-chest">
+                                <label for="id-loot-chest"> relleno </label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="id-loot-entities" name="lentities" value="loot-entities">
+                                <label for="id-loot-entities"> relleno </label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="id-loot-gameplay" name="lgameplay" value="loot-gameplay">
+                                <label for="id-loot-gameplay"> relleno </label>
+                            </p>
+                            <p>
+                                <input type="checkbox" id="id-loot-equipment" name="lequipment" value="loot-equipment">
+                                <label for="id-loot-equipment"> relleno </label>
+                            </p>
+                        </section>
+                    </form>
+                </td>
+            </tr>
+        </table>
+        <hr>
+    </section>
+
+    <!--Download result-->
+    <section class="download" id="download">
+        <p class="note">Be sure to Select all your desired options before download the finished template.<br>All the
+            configurations will be erased once you press this button</p>
+
+        <button> Download </button>
+        <hr>
+    </section>
+
+    <!--footer-->
+    <section class="footer">
+        <footer>NOVAworks. All rights reserved under GNU Use License</footer>
+    </section>
+
+</body>
+<!--Javascript-->
+<script src="js/scripts.js"></script>
+
+</html>

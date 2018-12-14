@@ -1,0 +1,347 @@
+/**********************************************************************
+* super style sheet designed for Addon template Generator
+* yep, nobody will read this... but anyways hello fellow stalker :3
+* all rigths reserverd under GNU license
+* made by Innova67
+***********************************************************************/
+
+
+
+/*--------------------------------------------------------------------
+ GENERAL PRUPOSE DECLARATIONS
+---------------------------------------------------------------------*/
+
+body{
+	text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+ 
+    /*fondo difuminado*/
+    background-image: url('../media/images/banner_difuminado.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6{
+	color: #3a3a3a;
+    font-weight: 700;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+
+button {
+	display: inline-block;
+	margin-bottom: 0;
+	margin-bottom: 10px;
+	padding: 6px 12px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	vertical-align: middle;
+	text-align: center;
+	white-space: nowrap;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 1.428571429;
+    cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+p.note{
+    font-style: italic;
+    font-size: 20px;
+}
+
+hr{
+    border-top: 3px solid #579ebd;
+    margin: 20px 0;
+    padding-bottom: 5px;
+    border-bottom: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/*--------------------------------------------------------------------
+NAVIGATION BAR
+---------------------------------------------------------------------*/
+nav{
+    background-color: #4493a7d7;
+    border-radius: 10px;
+}
+nav h1{
+    padding-left: 20px;
+    padding-top: 10px;
+    margin: 0%;
+    text-align: left;
+}
+
+ul, ol {
+    list-style:none;
+}
+
+.nav > li {
+    float:left;
+    padding-left: 5px;
+}
+
+.nav li a {
+    background-color:#ffffff;
+    color:#000000;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+    border-radius: 5px;
+}
+
+.nav li a:hover {
+    color: #ffffff;
+    background-color: #579ebd;
+}
+
+.nav li ul {
+    display:none;
+    position:absolute;
+}
+
+.nav li:hover > ul {
+    display:block;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.nav li ul li {
+    position:relative;
+}
+
+.nav li ul li ul {
+    right:-140px;
+    top:0px;
+}
+
+nav table{
+    width: 100%;
+}
+nav td.subtitle{
+    width: 85%;
+}
+/*--------------------------------------------------------------------
+ TITLE AND VERSIONS
+---------------------------------------------------------------------*/
+
+header{
+	/*padding: 150px 0px 0px 0px;  (diseñado para poner el navegador, pero quitado porque no se usa)*/
+    background: url('../media/images/banner.png');
+	background-color: black!important;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    color: white;
+    padding-bottom: 20px;
+}
+
+div.white{
+    background-color: #ffffff34;
+    padding-bottom: 10px;
+    border-radius: 15px;
+}
+
+div.title{
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+    max-width: 60%;
+    /*estilo de difuminado central*/
+    background-image: url('../media/images/banner_difuminado.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1{
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #0065b8;
+
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+}
+header .subtitle{
+    font-size: 50px;
+    margin-top: 0%;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+header p.lead{
+    font-weight: 300;
+    font-size: 36px;
+    padding: 0 10%;
+}
+
+
+header .versions{
+	border-radius: 25px;
+	background: #3333339a;
+    border: 5px solid rgb(102, 148, 148);
+    padding: 20px; 
+	height: 150px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+header p.version{
+	font-size: 30px;
+}
+
+/*--------------------------------------------------------------------
+ ADDON AND ACTIONS SECTION
+---------------------------------------------------------------------*/
+section.addon {
+    background-color: #4493a7d7;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+section.addon h1{
+    font-size: 50px;
+    margin-top: 0%;
+	margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+section.actions{
+    text-align: left;
+    padding-left: 30px;
+    background-color: #ffffffa4;
+    border-radius: 20px;
+    margin-bottom: 5px;
+}
+
+section.actions h2{
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+
+/*--------------------------------------------------------------------
+ GENERATOR SELECTION
+---------------------------------------------------------------------*/
+section.selector{
+    background-color: #4b4b4bc2;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+section.selector div.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+section.selector div.note{
+    color: #ffffff;
+    font-weight: 400;
+	font-size: 24px;
+	border-radius: 10px;
+	background: #e2e2e29a;
+    border: 5px solid #c7c7c7;
+    padding: 20px;
+    font-style: normal;
+    margin: 20px;
+}
+
+.selector img{
+    max-width: 320px;
+}
+
+section.selector p{
+    margin: 5%;
+    margin-top: 0%;
+    padding-bottom: 15px;
+    background-color: #9c9c9cb2;
+    border-radius: 10px;
+}
+
+div.selector{
+    background-image: url('../media/images/banner_difuminado.png');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: screen;
+    background-color: #4cbdd149;
+    border-radius: 10px;
+    padding-bottom: 1px;
+    max-width: 600px;
+    margin-bottom: 15px;
+    min-height: 480px;
+}
+
+/*--------------------------------------------------------------------
+DOWNLOAD SECTION
+---------------------------------------------------------------------*/
+section.download p.note{
+    color: #c7c7c7;
+    background-color: #4b4b4b77;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+
+/*--------------------------------------------------------------------
+VANILLA DOWNLOAD
+---------------------------------------------------------------------*/
+section.vanilla{
+    text-align: left;
+    padding-left: 30px;
+    background-color: #4493a7d7;
+    border-radius: 20px;
+}
+
+.vanilla p.lead{
+    font-weight: 300;
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 5px;
+    font-style: italic;
+}
+
+/*--------------------------------------------------------------------
+ FOOTER
+---------------------------------------------------------------------*/
+section.footer{
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #ffffff;
+    padding-top: 15px;
+}
+
+
+/*--------------------------------------------------------------------
+ ANIMATIONS AND DESIGN
+---------------------------------------------------------------------*/
+button:hover{
+    color: #ffffff;
+    background-color: #579ebd;
+}
+
+/*--------------------------------------------------------------------
+ FORM STYLE
+ --------------------------------------------------------------------*/
+
+ input[type=text], select{
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+ }

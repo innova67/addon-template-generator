@@ -1,0 +1,85 @@
+
+/**********************************************************************
+* sub style sheet designed for Addon template Generator
+* yep, nobody will read this... but anyways hello fellow stalker :3
+* all rigths reserverd under GNU license
+* made by Innova67
+***********************************************************************/
+
+/*------------------------------------------------------------------
+SELECTOR ANIMATION
+-------------------------------------------------------------------*/
+
+
+
+/*-------------------------------------------------------------------
+SUB SECTION DESPLEGABLE ADDON
+-------------------------------------------------------------------*/
+
+section.subsection{
+    background-color: #4493a7d7;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-left: 5%;
+    /*width al 50% solo sirve si el form esta acortado a la mitad*/
+    width: 60%;
+}
+
+hr.sub-hr{
+    width: 50%;
+    margin-left: 2%;
+}
+
+/*-----------------------------------------------------------------
+TABLA LATERAL PARA MAS OPCIONES ADDON
+-----------------------------------------------------------------*/
+table.sub-table{
+    width: 100%;
+}
+
+#sub-entities{
+    margin: 0%;
+}
+
+td.entities{
+    width: 60%;
+    vertical-align: -webkit-baseline-middle;
+}
+
+/*----------------------------------------------------------------
+DOWNLOAD ANIMATION
+-----------------------------------------------------------------*/
+
+button:hover{
+    animation-duration: 0.5s;
+    animation-name: lilmove;
+    animation-iteration-count: 2;
+    animation-direction: alternate;
+    /*animacion infinita y de ida y vuelta
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    */
+}
+
+@keyframes lilmove {
+    from{
+        transform: scale(initial);
+    }
+    to{
+        transform: scale(1.2);        
+    }
+}
+
+/*----------------------------------------------------------------
+INDEX SELECTOR ANIMATION
+----------------------------------------------------------------*/
+
+img:hover{
+    max-width: 420px;
+    transition: max-width 0.5s;
+}
+
+img:not(:hover){
+    max-width: 320px;
+    transition:  max-width 0.5s;
+}
