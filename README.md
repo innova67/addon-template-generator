@@ -50,3 +50,5 @@ this isn't implemented yet (sorry) :P
 - [ ] see my hard work and be proud of it
 ---
 (i am learning all from scratch so it might take a bit of time to finish the development, if someone is interesed i may release the beta phase here)
+
+<img align="right" width="50" alt="logo" height="50" src="https://innova67.github.io/addon-template-generator/media/icons/iconp.png">
